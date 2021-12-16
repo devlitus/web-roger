@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
-function App() {
+import { Header } from "./components/Header/Header";
+import { Logo } from "./components/Logo/Logo";
+import { Menu } from "./components/Menu/Menu";
+import { Sidebar } from "./components/Sidebar/Sidebar";
+import { MenuSocialMedia } from "./components/MenuSocialMedia/MenuSocialMedia";
+import { AppRouter } from "./components/AppRouting/AppRouter";
+
+export const App = () => {
+  const screenSize = window.screen.width;
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isScreenSize, setIsScreenSize] = useState(screenSize);
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      setIsScreenSize(window.screen.width);
+    },false);
+  }, [screenSize]);
+
+  const handlerSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header>
+        <Logo />
+        {(isScreenSize <= 768) ? <MenuSocialMedia /> : <Menu />}
+        {isScreenSize <= 768 && <FontAwesomeIcon size="2x" icon={faBars} onClick={handlerSidebar} />}
+      </Header>
+      <Sidebar isSidebarOpen={isSidebarOpen}>
+        <FontAwesomeIcon
+          icon={faTimes}
+          className="sidebar-icon__close"
+          onClick={handlerSidebar}
+        />
+        <Menu handlerSidebar={handlerSidebar} />
+      </Sidebar>
+      <AppRouter />
+    </>
   );
-}
-
-export default App;
+};

@@ -1,0 +1,11 @@
+.menu {
+  margin: 1rem auto;
+  width: calc(100% - 2rem);
+}
+.menu__navigation {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  
+}

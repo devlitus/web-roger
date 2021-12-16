@@ -1,0 +1,42 @@
+.about__container {
+  margin: 1rem 1rem;
+}
+.about__container--avatar {
+  width: 25vw;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: relative;
+  margin: 1rem auto;
+  z-index: 1;
+}
+.about__container--info {
+  position: relative;
+  top: -4.7rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+  padding: 1.3rem;
+}
+.about__container--info p {
+  letter-spacing: .5px;
+  margin: 2rem 0;
+}
+.about__container--valors {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  column-gap: 10px;
+}
+.about__image--hand {
+  width: 100%;
+  align-self: end;
+}
+.about__container--text {
+  position: relative;
+  top: -7.5rem;
+  left: 2.5rem;
+}
+.about_container--image {
+  align-self: end; 
+}

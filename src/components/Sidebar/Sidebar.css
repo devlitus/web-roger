@@ -1,0 +1,25 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+  padding-top: 20px;
+  z-index: 2;
+}
+.sidebar-icon__close {
+  position: absolute;
+  font-size: 48px;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+.animate__animated.animate__fadeOutRight {
+  --animate-duration: 500ms;
+}
+.animate__animated.animate__fadeInRight {
+  --animate-duration: 500ms;
+}
