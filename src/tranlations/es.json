@@ -1,0 +1,85 @@
+{
+  "home": {
+    "titlePattner": "Tu mejor garantia, nuestros clientes",
+    "titleContat": "Contacta con nosotros",
+    "pathUrl": "Inicio",
+    "cite": "Todos los adultos fueron alguna vez niños… pero sólo unos pocos lo recuerdan.",
+    "auhtorCite": "El Pequeño príncipe",
+    "contact": "Estamos en el centro de Barcelona, en la calle Gran Via de las Cortes Catalanes 672, entre Passeig de Gràcia i Passeig de Sabt Joan"
+  },
+  "about": {
+    "title": "Bienvenido a la página Roger LLopart",
+    "pathUrl": "Roger LLopart",
+    "descriptionP1": "Doctor en Educación y Sociedad para la Universidad de Barcelona, Diplomado en Educación Social (URL), Licenciado en Pedagogía, Máster en Intervenciones Sociales y Educativas (UB) y Técnico en Animación sociocultural.",
+    "descriptionP2": "Una trayectoria profesional encaminada hacia el mundo de la infancia y adolescencia con más de 20 años de experiencia, se inicia como profesor de secundaria y de ciclos formativos, que compaginó con la labor de educador social en diversos Centros Residenciales de Acción Educativa.",
+    "descriptionP3": "En la actualidad compagina su labor educativa, con formaciones, charlas y talleres para profesionales y familias. Colaborador de varios medios de comunicación entre ellos los Matins de Radio4 (RNE). Padre de dos criaturas y Pedagogo las 24 horas al día, siete días por semana.",
+    "value": "valores",
+    "values": {
+      "confidence": "Confianza",
+      "Austerity": "Austeridad"
+    },
+    "collita": "El principio de la recogida",
+    "collitas": {
+      "Effort": "Esfuerzo",
+      "generosity": "La generosidad",
+      "humility": "Humildad",
+      "perceverance": "Perseverancia",
+      "loveWork": "Querer el trabajo",
+      "dare": "Atrevimiento",
+      "creativity": "Creatividad",
+      "passion": "La passión",
+      "curiosity": "Curiosidad",
+      "paradox": "La paradoja",
+      "humor": "Humor",
+      "change": "El canbio"
+    }
+  },
+  "service": {
+    "pathUrl": "Servicios i Trabajos",
+    "talks": {
+      "section": "Charlas y talleres",
+      "section1": "Cápsulas de conocimiento",
+      "box1": {
+        "title": "Límites, autoridad y otros dolores de cabeza",
+        "description": "Se ofrecerán distintos recursos y estrategias dirigidas a las familias. Cómo podemos trabajar los límites sin dañar la autoestima de los niños, y al mismo tiempo mantener la convivencia y el clima familiar, con las consecuencias lógicas y naturales. Podemos educar con alternativas al castigo."
+      },
+      "box2": {
+        "title2": "Con el juego crecemos juntos",
+        "description2": "El juego es una actividad muy seria para los más pequeños de la casa: de forma libre, espontánea o dinamizado por los adultos, en el comedor de casa o en medio del medio natural, etc. Con el juego nos divertimos y aprendemos juntos, pero cuáles son los secretos que se esconden detrás de cada juego y juguete. Cómo les ayudan en su desarrollo, emocional, cognitivo, social, motriz..."
+      }
+    },
+    "title": "La Formación Bonificada",
+    "descriptionP1": "Cada empresa tiene derecho a una cantidad monetaria por cada trabajador para destinar a formación continua que será deducida de los pagos a la Seguridad Social. Cada empresa ya sea grande o pequeña, dispone de un crédito que se concede depende del volumen de trabajadores.",
+    "descriptionP2": "La empresa elige qué tipo de cursos quiere impartir a sus trabajadores dependiendo de sus intereses y necesidades. Es en este punto donde podemos realizar las formaciones a medida",
+    "title2": "Escola de pares i mares",
+    "subtitle": "Xerrades i tallers- Formació per a les famílies,",
+    "titleList": {
+      "title": "Principals propostes",
+      "list": {
+        "limit": "Límits, autoritat i altres mal de caps.",
+        "education": "Educar en la llibertat",
+        "grow": "Amb el joc creixem junts",
+        "talks": "Xerrada Orientació acadèmica i professional"
+      }
+    },
+    "subtitle2": "Taller - xarrada",
+    "title3": "Límits, Autoritat, i altres mal de caps",
+    "descriptionP3": "S’oferiran diferents recursos i estratègies adreçades a les famílies. Com podem treballar els límits sense danyar l’autoestima dels infants, i al mateix temps mantenir la convivència i el clima familiar, amb les conseqüències lògiques i naturals. Podem educar amb alternatives al càstig.",
+    "title4": "Educar en la LLibertat",
+    "descriptionP4": "Com podem canalitzar el desig de llibertat dels nostres fills, tot potenciant la responsabilitat i la seva l'autonomia personal, dins un marc normatiu i amb uns límits definits. Generant un clima social familiar i educatiu adequat, amb una educació emocional i uns valors compartits comuns",
+    "titel5": "Amb el joc creixem junts",
+    "descriptionP5": "El joc és una activitat molt seriosa per als més petits de la casa: de forma lliure, espontània o dinamitzat pels adults, al menjador de casa o al mig del medi natural, etc. Amb el joc ens divertim i aprenem junts, però quins són els secrets que s’amaguen darrere de cada joc i joguina. Com els ajuden en el seu desenvolupament, emocional, cognitiu, social, motriu..."
+  },
+  "contact": {
+    "pathUrl": "Contacte"
+  },
+  "job": {
+    "pathUrl": "Trabajos realizados - clientes"
+  },
+  "novelties": {
+    "pathUrl": "Novedades"
+  },
+  "campus": {
+    "pathUrl": "Campus Virtual"
+  }
+}
