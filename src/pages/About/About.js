@@ -1,51 +1,40 @@
-import { LayoutMovile } from "../../components/LayoutMovile/LayoutMovile";
 import avatar from "../../assets/images/avatar.jpg";
-import hand from '../../assets/images/hand.png';
+import hand from "../../assets/images/hand.png";
 import "./About.css";
+import { useTranslation } from "react-i18next";
 export const About = () => {
+  const { t } = useTranslation();
+  const { descriptionP1, descriptionP2, descriptionP3, collita, collitas } =
+    t("about");
+  const { Effort, generosity, humility } = collitas;
   return (
-    <LayoutMovile>
-      <img
-        className="about__container--avatar"
-        src={avatar}
-        alt="Roger Llopart"
-      />
+    <>
+      <div className="about">
+        <img
+          className="about__container--avatar"
+          src={avatar}
+          alt="Roger Llopart"
+        />
+      </div>
       <div className="about__container">
         <div className="about__container--info">
-          <p>
-            Doctor en Educació i Societat per a la Universitat de Barcelona,
-            Diplomat en Educació Social (URL), Llicenciat en Pedagogia, Màster
-            en Intervencions Socials i Educatives (UB) i Tècnic en Animació
-            sociocultural.
-          </p>
-          <p>
-            Una trajectòria professional encaminada cap al món de la infància i
-            adolescència amb més de 20 anys d'experiència, s'inicia com a
-            professor de secundària i de cicles formatius, que compaginà amb la
-            tasca d'educador social en diversos Centres Residencials d'Acció
-            Educativa.
-          </p>
-          <p>
-            En l'actualitat compagina la seva tasca educativa, amb formacions,
-            xerrades i tallers per a professionals i famílies. Col·laborador de
-            diversos mitjans de comunicació entre ells els Matins de Radio4
-            (RNE). Pare de dues criatures i Pedagog les 24 hores al dia, set
-            dies per setmana.
-          </p>
+          <p>{descriptionP1}</p>
+          <p>{descriptionP2}</p>
+          <p>{descriptionP3}</p>
         </div>
-        <h3>Els principis de la Collita:</h3>
+        <h3>{collita}:</h3>
         <div className="about__container--valors">
-          <div >
+          <div>
             <img className="about__image--hand" src={hand} alt="hand" />
-            <p className="about__container--text">Esforç</p>
+            <p className="about__container--text">{Effort}</p>
           </div>
           <div className="about_container--image">
             <img className="about__image--hand" src={hand} alt="hand" />
-            <p className="about__container--text">Esforç</p>
+            <p className="about__container--text">{generosity}</p>
           </div>
           <div>
             <img className="about__image--hand" src={hand} alt="hand" />
-            <p className="about__container--text">Esforç</p>
+            <p className="about__container--text">{humility}</p>
           </div>
         </div>
         <ul>
@@ -63,6 +52,6 @@ export const About = () => {
           <li>El canvi</li>
         </ul>
       </div>
-    </LayoutMovile>
+    </>
   );
 };
