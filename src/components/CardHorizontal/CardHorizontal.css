@@ -1,0 +1,17 @@
+.card__horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: stretch;
+  align-items: center;
+}
+.card__horizontal--title{
+  margin-left: 1rem;
+}
+.card__horizontal--image{
+  width: 100%;
+  
+}
+.card__horizontal--text{
+  grid-column: 1 / span 3;
+}
