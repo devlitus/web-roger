@@ -10,7 +10,6 @@ export const Menu = ({ handlerSidebar }) => {
   };
   return (
     <div className="menu">
-      <SelectLanguages onClick={handlerClick} />
       <nav className="menu__navigation">
         <Link to="/" onClick={handlerClick}>
           {t("home.pathUrl")}
@@ -27,6 +26,14 @@ export const Menu = ({ handlerSidebar }) => {
         <Link to="/campus" onClick={handlerClick}>
           {t("campus.pathUrl")}
         </Link>
+        <a
+          href="http://rogerllopart.blogspot.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Blog
+        </a>
+        <SelectLanguages onClick={handlerClick} />
       </nav>
     </div>
   );
