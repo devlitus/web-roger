@@ -37,15 +37,25 @@
   "service": {
     "pathUrl": "Servicios i Trabajos",
     "talks": {
-      "section": "Charlas y talleres",
-      "section1": "Cápsulas de conocimiento",
-      "box1": {
-        "title": "Límites, autoridad y otros dolores de cabeza",
-        "description": "Se ofrecerán distintos recursos y estrategias dirigidas a las familias. Cómo podemos trabajar los límites sin dañar la autoestima de los niños, y al mismo tiempo mantener la convivencia y el clima familiar, con las consecuencias lógicas y naturales. Podemos educar con alternativas al castigo."
+      "section": {
+        "title": "Charlas y talleres",
+        "box1": {
+          "title1": "Límites, autoridad y otros dolores de cabeza",
+          "description1": "Se ofrecerán distintos recursos y estrategias dirigidas a las familias. Cómo podemos trabajar los límites sin dañar la autoestima de los niños, y al mismo tiempo mantener la convivencia y el clima familiar, con las consecuencias lógicas y naturales. Podemos educar con alternativas al castigo."
+        },
+        "box2": {
+          "title2": "Con el juego crecemos juntos",
+          "description2": "El juego es una actividad muy seria para los más pequeños de la casa: de forma libre, espontánea o dinamizado por los adultos, en el comedor de casa o en medio del medio natural, etc. Con el juego nos divertimos y aprendemos juntos, pero cuáles son los secretos que se esconden detrás de cada juego y juguete. Cómo les ayudan en su desarrollo, emocional, cognitivo, social, motriz..."
+        }
       },
-      "box2": {
-        "title2": "Con el juego crecemos juntos",
-        "description2": "El juego es una actividad muy seria para los más pequeños de la casa: de forma libre, espontánea o dinamizado por los adultos, en el comedor de casa o en medio del medio natural, etc. Con el juego nos divertimos y aprendemos juntos, pero cuáles son los secretos que se esconden detrás de cada juego y juguete. Cómo les ayudan en su desarrollo, emocional, cognitivo, social, motriz..."
+      "section1": {
+        "titleh1": "Cápsulas de conocimiento",
+        "p": {
+          "ptitle": "Autoridad sin autoritarismo"
+        },
+        "p2": {
+          "titlep": "El clima social en los centros educativos."
+        }
       }
     },
     "title": "La Formación Bonificada",

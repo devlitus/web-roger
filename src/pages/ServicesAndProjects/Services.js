@@ -15,16 +15,24 @@ export const Services = () => {
   const { ptitle } = p;
   const { titlep } = p2;
   return (
-    <div>
-      <h1>{title}</h1>
+    <div className="wrapper">
+      <h1 className="wrapper__title">{title}</h1>
       <section className="section__info">
-        <CardHorizontal image={image16} title={title1} text={description1} />
-        <CardHorizontal image={image13} title={title2} text={description2} />
+        <div className="section__box">
+          <CardHorizontal image={image16} title={title1} text={description1} />
+        </div>
+        <div className="section__box">
+          <CardHorizontal image={image13} title={title2} text={description2} />
+        </div>
       </section>
       <h1>{titleh1}</h1>
       <section className="section__info">
-        <CardHorizontal image={image43} title={ptitle} />
-        <CardHorizontal image={image24} title={titlep} />
+        <div className="section__box">
+          <CardHorizontal image={image43} title={ptitle} />
+        </div>
+        <div className="section__box">
+          <CardHorizontal image={image24} title={titlep} />
+        </div>
       </section>
     </div>
   );
