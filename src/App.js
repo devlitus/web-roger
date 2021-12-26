@@ -15,21 +15,27 @@ export const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isScreenSize, setIsScreenSize] = useState(screenSize);
   useEffect(() => {
-    window.addEventListener("resize", () => {
-      setIsScreenSize(window.screen.width);
-    },false);
+    window.addEventListener(
+      "resize",
+      () => {
+        setIsScreenSize(window.screen.width);
+      },
+      false
+    );
   }, [screenSize]);
 
   const handlerSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
-  
+
   return (
     <>
       <Header>
         <Logo />
-        {(isScreenSize <= 768) ? <MenuSocialMedia /> : <Menu />}
-        {isScreenSize <= 768 && <FontAwesomeIcon size="2x" icon={faBars} onClick={handlerSidebar} />}
+        {isScreenSize <= 768 ? <MenuSocialMedia /> : <Menu />}
+        {isScreenSize <= 768 && (
+          <FontAwesomeIcon size="2x" icon={faBars} onClick={handlerSidebar} />
+        )}
       </Header>
       <Sidebar isSidebarOpen={isSidebarOpen}>
         <FontAwesomeIcon
