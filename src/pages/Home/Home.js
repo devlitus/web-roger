@@ -43,17 +43,17 @@ export const Home = () => {
             <span>rogerllopart@rogerllopart.net</span>
           </div>
         </div>
+        <p style={{ textAlign: "center", margin: "0", padding: "0" }}>
+          {t(contactP)}
+        </p>
+        <p style={{ textAlign: "center", margin: "0", padding: "0" }}>
+          <strong>{t(contactP2)}</strong>
+        </p>
+        <p style={{ textAlign: "center", margin: "0", padding: "0" }}>
+          {t(contactP3)}
+        </p>
+        <Map />
       </div>
-      <p style={{ textAlign: "center", margin: "0", padding: "0" }}>
-        {t(contactP)}
-      </p>
-      <p style={{ textAlign: "center", margin: "0", padding: "0" }}>
-        <strong>{t(contactP2)}</strong>
-      </p>
-      <p style={{ textAlign: "center", margin: "0", padding: "0" }}>
-        {t(contactP3)}
-      </p>
-      <Map />
     </>
   );
 };

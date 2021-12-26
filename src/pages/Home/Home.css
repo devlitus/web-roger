@@ -5,8 +5,8 @@
   position: absolute;
   width: 100%;
   height: 23%;
-  margin-top: .5rem;
-  background-image: url('../../assets/images/petit-princep.jpg');
+  margin-top: 0.5rem;
+  background-image: url("../../assets/images/petit-princep.jpg");
   background-size: cover;
   filter: blur(2px);
   left: 0;
@@ -26,7 +26,7 @@
   height: 76%;
   margin-left: 1rem;
   border-radius: 5%;
-  background-image: url('../../assets/images/Foto1.jpg');
+  background-image: url("../../assets/images/Foto1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,10 +44,9 @@
   z-index: 1;
 }
 .blockquote__author::before {
-  content: '-- ';
+  content: "-- ";
 }
 .home__container {
-  clear: both;
   margin: 0 1rem;
 }
 .home__container--principal {
@@ -63,6 +62,61 @@
   align-items: center;
 }
 .home__contact--icon span::before {
-  content: ' ';
-  padding: .5rem;
+  content: " ";
+  padding: 0.5rem;
+}
+@media screen and (min-width: 769px) {
+  .bg-image {
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    margin-top: 0.5rem;
+    background-image: url("../../assets/images/petit-princep.jpg");
+    background-size: cover;
+    filter: blur(2px);
+    left: calc(100% / 2 - 35%);
+  }
+  .blockquote__img {
+    margin: 0;
+  }
+  .blockquote {
+    width: 60%;
+    margin: 5rem auto;
+    grid-template-columns: 20% auto;
+  }
+  .blockquote__text {
+    font-size: 2rem;
+    font-weight: bold;
+    align-self: end;
+    z-index: 1;
+  }
+  .home__container {
+    position: relative;
+    top: 4rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .home__container--principal {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1.5rem;
+  }
+  .home__contact {
+    position: relative;
+    top: 4rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .home__contact--icons {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .home__contact--icon span::before {
+    content: " ";
+    padding: 0.5rem;
+  }
 }

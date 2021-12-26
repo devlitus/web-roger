@@ -25,7 +25,7 @@
   padding: 1.3rem;
 }
 .about__container--info p {
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin: 2rem 0;
 }
 .about__container--valors {
@@ -43,5 +43,29 @@
   left: 2.5rem;
 }
 .about_container--image {
-  align-self: end; 
+  align-self: end;
+}
+@media screen and (min-width: 769px) {
+  .about {
+    margin-top: 2rem;
+  }
+  .about__container {
+    margin: 0;
+  }
+  .about__container--info {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: -6rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+  }
+  .about__container--info p {
+    font-size: 1.2rem;
+  }
+  .about__container--info p:nth-child(1) {
+    margin-top: 4rem;
+  }
 }
