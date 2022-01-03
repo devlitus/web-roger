@@ -1,7 +1,7 @@
 export const Jobs = () => {
   return (
-    <div>
-      <h1>Jobs</h1>
+    <div className="wrapper">
+      <h1>La teva millor garantia, els nostres clients</h1>
     </div>
   );
 };
