@@ -21,6 +21,8 @@ export const Home = () => {
               <Postit text="Xerrades i tallers" />
               <Postit text="Càpsules de coneixement" />
               <Postit text="La Formació a mida Bonificada" />
+              <Postit text="La Formació a mida Bonificada" />
+              <Postit text="La Formació a mida Bonificada" />
             </div>
           </div>
         </div>

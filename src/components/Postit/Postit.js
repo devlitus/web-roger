@@ -17,7 +17,10 @@ export const Postit = ({ text }) => {
                 </defs>
               </svg>
               <div className="sticky-content">
-                <span>{text}</span>
+                <a href="service">
+                  {" "}
+                  <span>{text}</span>
+                </a>
               </div>
             </div>
           </div>
