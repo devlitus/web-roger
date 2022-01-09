@@ -110,8 +110,41 @@
 .contact__item__text {
   text-align: center;
 }
-.content__contact {
-  margin-top: 5rem;
+.contact {
+  border: 1px solid red;
+  margin-top: 2rem;
+  /* max-height: 400px; */
+}
+.bg-contact {
+  width: 100%;
+  height: 333px;
+  background-image: url("../../assets/images/board-clean.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.contact__content {
+  position: relative;
+  font-family: var(--fontFamilyVariant);
+  color: #ffffff;
+  top: 1rem;
+}
+.contact__title {
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: var(--fontWeightBold);
+}
+
+.contact__list {
+  margin: 0;
+  font-size: 2.3rem;
+  font-weight: var(--fontWeightLight);
+  letter-spacing: 0.1rem;
+}
+.contact__list__item > a {
+  text-decoration: none;
+  color: #ffffff;
 }
 @media screen and (max-width: 640px) {
   .blockquote__image {
