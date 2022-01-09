@@ -111,7 +111,7 @@
   text-align: center;
 }
 .contact {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 2rem;
   /* max-height: 400px; */
 }
@@ -145,6 +145,11 @@
 .contact__list__item > a {
   text-decoration: none;
   color: #ffffff;
+}
+.content__postit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
 }
 @media screen and (max-width: 640px) {
   .blockquote__image {
