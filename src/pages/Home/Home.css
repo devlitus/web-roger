@@ -51,7 +51,7 @@
 }
 .content__service {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
 }
 .content__service a {
@@ -77,13 +77,13 @@
   transform: translate(0px, -5px);
 }
 .box__image {
-  width: 50%;
+  width: 45%;
   flex-grow: 1;
   align-self: center;
 }
 .box__text {
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center;
 }
 
@@ -111,7 +111,6 @@
   text-align: center;
 }
 .contact {
-  border: 1px solid red;
   margin-top: 2rem;
   /* max-height: 400px; */
 }
@@ -122,6 +121,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  border-radius: var(--border-radius);
 }
 .contact__content {
   position: relative;

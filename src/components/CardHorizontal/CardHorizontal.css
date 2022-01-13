@@ -5,13 +5,18 @@
   justify-items: stretch;
   align-items: center;
 }
-.card__horizontal--title{
+.card__horizontal--title {
   margin-left: 1rem;
 }
-.card__horizontal--image{
+.card__horizontal--image {
   width: 100%;
-  
+  border-radius: calc(var(--border-radius) + 10px);
 }
-.card__horizontal--text{
+.card__horizontal--text {
   grid-column: 1 / span 3;
+}
+@media screen and (max-width: 768px) {
+  .card__horizontal--text {
+    grid-column: -2 / -1;
+  }
 }
