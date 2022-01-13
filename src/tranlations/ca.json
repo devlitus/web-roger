@@ -37,7 +37,7 @@
     }
   },
   "service": {
-    "pathUrl": "Serveis i Treballs",
+    "pathUrl": "Serveis i Projectes",
     "title": "La Formació Bonificada.",
     "talks": {
       "section": {
@@ -86,7 +86,7 @@
     "pathUrl": "Contacte"
   },
   "job": {
-    "pathUrl": "Treballs realitzats - clients"
+    "pathUrl": "Treballs realitzats"
   },
   "novelties": {
     "pathUrl": "Novetats"
