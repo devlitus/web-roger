@@ -18,6 +18,7 @@
   --fontWeightThin: 100;
   --fontWeightUltraLight: 200;
   --fontFamilyVariant: "Island Moments", cursive;
+  --border-radius: 10px;
   --smScreen: 640px;
   --lgScreen: 1024px;
   --xlScreen: 1440px;
