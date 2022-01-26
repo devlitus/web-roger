@@ -1,0 +1,107 @@
+.header {
+  width: 100%;
+}
+.header__image {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: fill;
+}
+.box__service {
+  position: relative;
+  width: 100%;
+  height: calc(1rem + 11vw);
+  background-color: #005f94;
+}
+.box__service-title {
+  width: 90%;
+  margin: 0rem auto;
+  color: #89acc0;
+  font-size: calc(1rem + 8vw);
+  font-weight: var(--fontWeightMedium);
+  padding: calc(1rem + 2vw);
+}
+.box__service-arrow {
+  width: calc(100vw - 65vw);
+  position: absolute;
+  top: 41%;
+  left: calc(1rem + 59vw);
+  transform: rotateZ(18deg);
+  z-index: 1;
+}
+.box__service__img {
+  width: 80%;
+  max-width: 80%;
+  object-fit: contain;
+  border: #000 solid 2px;
+  margin-top: 3rem;
+}
+.box__service__title {
+  font-weight: var(--fontWeightBold);
+  font-size: calc(1rem + 1vw);
+  text-align: center;
+}
+.content__service {
+  width: calc(1rem + 77vw);
+  margin: calc(1rem + 5vw);
+}
+.content__text {
+  font-weight: var(--fontWeightUltraLight);
+  font-size: clamp(0.5rem, 2vw, 1.4rem);
+}
+.content__box__service {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(calc(1rem + 5vw), 1fr));
+  grid-gap: calc(1rem + 1vw);
+  /* margin: calc(1rem + 1vw) 0; */
+}
+
+.content__box__service-item {
+  height: calc(1rem + 35vw);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  border: #000 solid 1px;
+  gap: calc(1rem + 1vw);
+}
+@media screen and (max-width: 640px) {
+  .header__image {
+    aspect-ratio: 16 / 9;
+  }
+  .box__service-title {
+    padding: 1rem;
+  }
+  .box__service-arrow {
+    top: 54%;
+  }
+  .content__service {
+    margin: 0 0 0 1.5rem;
+  }
+  .content__box__service {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: stretch;
+    gap: 1rem;
+  }
+  .content__box__service-item {
+    max-width: fit-content;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+  }
+  .box__service__img {
+    width: 40%;
+    max-width: 50%;
+    margin: 0 0 0 1rem;
+  }
+  .box__service__title {
+    font-size: 1rem;
+  }
+  .content__text {
+    font-size: 1rem;
+  }
+}

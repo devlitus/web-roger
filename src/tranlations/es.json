@@ -1,15 +1,16 @@
 {
   "home": {
+    "pathUrl": "Inicio",
+    "textHeader": "Pedagogia en movimiento",
     "titlePattner": "Tu mejor garantia, nuestros clientes",
     "titleContat": "Contacta con nosotros",
-    "pathUrl": "Inicio",
     "cite": "Todos los adultos fueron alguna vez niños… pero sólo unos pocos lo recuerdan.",
     "auhtorCite": "El Pequeño príncipe",
     "contact": "Estamos en el centro de Barcelona, en la calle Gran Via de las Cortes Catalanes 672, entre Passeig de Gràcia i Passeig de Sabt Joan"
   },
   "about": {
     "title": "Bienvenido a la página Roger LLopart",
-    "pathUrl": "Roger LLopart",
+    "pathUrl": "Quien soy",
     "descriptionP1": "Doctor en Educación y Sociedad para la Universidad de Barcelona, Diplomado en Educación Social (URL), Licenciado en Pedagogía, Máster en Intervenciones Sociales y Educativas (UB) y Técnico en Animación sociocultural.",
     "descriptionP2": "Una trayectoria profesional encaminada hacia el mundo de la infancia y adolescencia con más de 20 años de experiencia, se inicia como profesor de secundaria y de ciclos formativos, que compaginó con la labor de educador social en diversos Centros Residenciales de Acción Educativa.",
     "descriptionP3": "En la actualidad compagina su labor educativa, con formaciones, charlas y talleres para profesionales y familias. Colaborador de varios medios de comunicación entre ellos los Matins de Radio4 (RNE). Padre de dos criaturas y Pedagogo las 24 horas al día, siete días por semana.",
@@ -35,7 +36,7 @@
     }
   },
   "service": {
-    "pathUrl": "Servicios i Trabajos",
+    "pathUrl": "sevicios",
     "talks": {
       "section": {
         "title": "Charlas y talleres",
@@ -81,7 +82,7 @@
     "descriptionP5": "El joc és una activitat molt seriosa per als més petits de la casa: de forma lliure, espontània o dinamitzat pels adults, al menjador de casa o al mig del medi natural, etc. Amb el joc ens divertim i aprenem junts, però quins són els secrets que s’amaguen darrere de cada joc i joguina. Com els ajuden en el seu desenvolupament, emocional, cognitiu, social, motriu..."
   },
   "contact": {
-    "pathUrl": "Contacte"
+    "pathUrl": "Contacto"
   },
   "job": {
     "pathUrl": "Trabajos realizados - clientes"

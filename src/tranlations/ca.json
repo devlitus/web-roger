@@ -1,8 +1,9 @@
 {
   "home": {
+    "pathUrl": "Inici",
+    "textHeader": "Pedagogia en moviment",
     "titlePattner": "La teva millor garantia, els nostres clients",
     "titleContat": "Contacte amb nosaltres",
-    "pathUrl": "Inici",
     "cite": "Tots els adults van ser alguna vegada nens… però només uns pocs ho recorden.",
     "auhtorCite": "El Petit princep",
     "contactP": "Estem al centre de Barcelona,",
@@ -11,7 +12,7 @@
   },
   "about": {
     "title": "Benvingut a la pàgina Roger LLopart",
-    "pathUrl": "Roger LLopart",
+    "pathUrl": "Qui soc",
     "descriptionP1": "Doctor en Educació i Societat per a la Universitat de Barcelona, Diplomat en Educació Social (URL), Llicenciat en Pedagogia, Màster en Intervencions Socials i Educatives (UB) i Tècnic en Animació sociocultural.",
     "descriptionP2": "Una trajectòria professional encaminada cap al món de la infància i adolescència amb més de 20 anys d'experiència, s'inicia com a professor de secundària i de cicles formatius, que compaginà amb la tasca d'educador social en diversos Centres Residencials d'Acció Educativa.",
     "descriptionP3": "En l'actualitat compagina la seva tasca educativa, amb formacions, xerrades i tallers per a professionals i famílies. Col·laborador de diversos mitjans de comunicació entre ells els Matins de Radio4 (RNE). Pare de dues criatures i Pedagog les 24 hores al dia, set dies per setmana.",
@@ -37,7 +38,11 @@
     }
   },
   "service": {
+<<<<<<< HEAD
     "pathUrl": "Serveis i Projectes",
+=======
+    "pathUrl": "Serveis",
+>>>>>>> new-design
     "title": "La Formació Bonificada.",
     "talks": {
       "section": {
