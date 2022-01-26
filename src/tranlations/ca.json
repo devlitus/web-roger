@@ -38,11 +38,7 @@
     }
   },
   "service": {
-<<<<<<< HEAD
-    "pathUrl": "Serveis i Projectes",
-=======
     "pathUrl": "Serveis",
->>>>>>> new-design
     "title": "La Formació Bonificada.",
     "talks": {
       "section": {
